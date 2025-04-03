@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .wire { fill: none; stroke: #e74c3c; stroke-width: 8; }
+      .outlet { fill: #95a5a6; }
+      .outlet-detail { fill: #7f8c8d; }
+      .switch { fill: #ecf0f1; }
+      .switch-detail { fill: #bdc3c7; }
+    </style>
+  </defs>
+  <rect class="outlet" x="300" y="250" width="200" height="100" rx="10"/>
+  <rect class="outlet-detail" x="340" y="270" width="40" height="60" rx="5"/>
+  <rect class="outlet-detail" x="420" y="270" width="40" height="60" rx="5"/>
+  <rect class="switch" x="150" y="200" width="80" height="120" rx="10"/>
+  <rect class="switch-detail" x="165" y="220" width="50" height="80" rx="5"/>
+  <path class="wire" d="M 100 100 C 200 100, 300 150, 400 150 S 600 200, 700 200"/>
+  <path class="wire" d="M 100 300 C 200 300, 300 350, 400 350 S 600 400, 700 400"/>
+  <circle class="outlet-detail" cx="360" cy="300" r="5"/>
+  <circle class="outlet-detail" cx="440" cy="300" r="5"/>
+</svg>

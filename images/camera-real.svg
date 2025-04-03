@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .camera-body { fill: #2c3e50; }
+      .lens { fill: #34495e; }
+      .mount { fill: #7f8c8d; }
+      .indicator { fill: #e74c3c; }
+    </style>
+  </defs>
+  <rect class="camera-body" x="200" y="150" width="400" height="300" rx="20"/>
+  <circle class="lens" cx="400" cy="300" r="100"/>
+  <circle class="lens" cx="400" cy="300" r="80" fill="#2c3e50"/>
+  <rect class="mount" x="150" y="250" width="50" height="100"/>
+  <circle class="indicator" cx="550" cy="200" r="10"/>
+  <path class="mount" d="M 200 150 L 250 100 L 550 100 L 600 150"/>
+</svg>

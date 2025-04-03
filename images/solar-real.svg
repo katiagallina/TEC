@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .panel { fill: #2c3e50; }
+      .frame { fill: #34495e; }
+      .cell { fill: #3498db; }
+      .reflection { fill: #fff; opacity: 0.1; }
+    </style>
+  </defs>
+  <rect class="frame" x="100" y="100" width="600" height="400" rx="10"/>
+  <rect class="panel" x="120" y="120" width="560" height="360"/>
+  <g class="cells">
+    <rect class="cell" x="140" y="140" width="120" height="100"/>
+    <rect class="cell" x="270" y="140" width="120" height="100"/>
+    <rect class="cell" x="400" y="140" width="120" height="100"/>
+    <rect class="cell" x="530" y="140" width="120" height="100"/>
+    <rect class="cell" x="140" y="250" width="120" height="100"/>
+    <rect class="cell" x="270" y="250" width="120" height="100"/>
+    <rect class="cell" x="400" y="250" width="120" height="100"/>
+    <rect class="cell" x="530" y="250" width="120" height="100"/>
+    <rect class="cell" x="140" y="360" width="120" height="100"/>
+    <rect class="cell" x="270" y="360" width="120" height="100"/>
+    <rect class="cell" x="400" y="360" width="120" height="100"/>
+    <rect class="cell" x="530" y="360" width="120" height="100"/>
+  </g>
+  <path class="reflection" d="M 140 140 L 260 140 L 140 260 Z"/>
+</svg>

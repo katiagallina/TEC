@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .intercom-body { fill: #34495e; }
+      .screen { fill: #2c3e50; }
+      .speaker { fill: #7f8c8d; }
+      .button { fill: #95a5a6; }
+      .camera { fill: #3498db; }
+    </style>
+  </defs>
+  <rect class="intercom-body" x="300" y="100" width="200" height="400" rx="10"/>
+  <rect class="screen" x="320" y="120" width="160" height="120" rx="5"/>
+  <circle class="camera" cx="400" cy="160" r="15"/>
+  <rect class="speaker" x="340" y="260" width="120" height="60" rx="5"/>
+  <circle class="button" cx="400" cy="360" r="25"/>
+  <rect class="speaker" x="340" y="400" width="120" height="60" rx="5"/>
+  <path class="speaker" d="M 360 280 L 440 280 M 360 290 L 440 290 M 360 300 L 440 300"/>
+  <path class="speaker" d="M 360 420 L 440 420 M 360 430 L 440 430 M 360 440 L 440 440"/>
+</svg>
